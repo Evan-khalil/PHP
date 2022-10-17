@@ -1,0 +1,26 @@
+<html lang="se"><head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   
+    <!--===entries===-->
+    <div>
+        <p><strong></strong> ---text---<br></p>
+        <p>By ---creator--- At ---time---</p>
+    </div>
+    <!--===entries===-->
+    <form method="post" enctype="multipart/form-data" action="AddReply.php">
+        <p>
+          <textarea name="name" rows="5" cols="100" placeholder="Reply"></textarea>
+        </p>
+        <p>
+          <input type="submit" name="push_button" value="Sänd">
+        </p>
+      </form>
+      <form method="post" enctype="multipart/form-data" action="Posts.php">
+          <p>
+            <input type="submit" name="push_button" value="Back">
+          </p>
+        </form>
+</body></html>

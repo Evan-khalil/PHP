@@ -1,0 +1,33 @@
+<html lang="se"><head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form method="post" enctype="multipart/form-data" action="AddPosts.php">
+      <p>
+        <textarea name="name" rows="20" cols="60" placeholder="Post"></textarea>
+      </p>
+      <p>
+        <input type="submit" name="push_button" value="Send">
+      </p>
+    </form>
+    <form method="post" enctype="multipart/form-data" action="Topics.php">
+        <p>
+          <input type="submit" name="push_button" value="Back">
+        </p>
+      </form>
+    <!--===entries===-->
+    <div>
+        <a href="SetPostCookie.php?id=---no---">
+          <p">
+            <strong>---text---</strong>
+          </p>
+          
+        </a> 
+        <p>By ---creator--- At ---time---</p>
+        <p>
+            ---reply--- Replies
+          </p>
+      </div>
+      <!--===entries===-->
+</body></html>
